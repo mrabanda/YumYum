@@ -54,8 +54,8 @@ module.exports = {
           }),
       },
       {
-          test: /\.(jpg|png|gif)$/,
-          use: 'file-loader'
+        test: /\.(jpg|png|gif)$/,
+        use: 'file-loader'
       },
     ],
   },
