@@ -28,8 +28,8 @@ if (process.env.NODE_ENV === undefined)
     // development env variables
     require('dotenv').config();
 
-const env = process.env.NODE_ENV;
-// const env = 'production';
+// const env = process.env.NODE_ENV;
+const env = 'production';
 
 // Database seteup MongoDB--------------------------
 (env === 'development')
