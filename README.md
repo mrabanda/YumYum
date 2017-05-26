@@ -7,15 +7,15 @@ Share culture and make connections with neighbors through home-cooked meals
 
 ### What You Can Do
 
-- Log on with a username and password or Google.
+- Sign up and log on with a username and password or Google.
 
-- See a list of meals by cooks in your area.
+- See a list of meals prepared by cooks in your area.
 
-- Search for meal by cuisine or zipcode.
+- Search for meals by cuisine or zip code.
 
-- Select a meal to go to Cook menu page and see details.
+- Select a meal to go to the cook's menu page and see details.
 
-- Add meals to your cart.
+- Add meals from the menu to your cart.
 
 - View cart to increase, decrease, and delete meals.
 
