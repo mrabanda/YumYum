@@ -1,4 +1,4 @@
-forked and refactored from: [jbool24/YumYum](https://github.com/jbool24/YumYum)
+forked and refactored from [jbool24/YumYum](https://github.com/jbool24/YumYum) using create-react-app
 
 # FoodFriends
 
