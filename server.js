@@ -24,9 +24,10 @@ mongoose.Promise = global.Promise;
 /***********************************************************
 *  ENVIRONEMENT SETUP
 ************************************************************/
-if (process.env.NODE_ENV === undefined)
+if (process.env.NODE_ENV === undefined) {
     // development env variables
     require('dotenv').config();
+}
 
 const env = process.env.NODE_ENV;
 // const env = 'production';
