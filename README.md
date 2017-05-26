@@ -11,13 +11,13 @@ Share culture and make connections with neighbors through home-cooked meals
 
 - See a list of meals prepared by cooks in your area.
 
-- Search for meals by cuisine or zip code.
+- Search for meals by zip code. (use zip code 07310 to test)
 
 - Select a meal to go to the cook's menu page and see details.
 
 - Add meals from the menu to your cart.
 
-- View cart to increase, decrease, and delete meals.
+- View cart in sidebar to increase, decrease, and delete meals.
 
 - Checkout with Stripe to pay for meals.
 
