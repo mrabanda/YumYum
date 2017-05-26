@@ -54,7 +54,6 @@ db.once("open", function() {
   console.log(`Mongoose connection successful.\nMongo Host: ${db.host}:${db.port}`);
 });
 
-
 // EXPRESS APP INIT
 const app = express();
 
