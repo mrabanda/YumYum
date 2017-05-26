@@ -75,7 +75,7 @@
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "heroku-postbuild": "webpack -p --config ./config/webpack.prod.config.js --progress"
+    "heroku-postbuild": "webpack -p --config ./config/webpack.config.prod.js --progress"
   },
   "jest": {
     "collectCoverageFrom": [
