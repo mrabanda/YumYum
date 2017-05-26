@@ -1,6 +1,8 @@
-# YumYum
+# FoodFriends
 Share culture and make connections with neighbors through home-cooked meals
-
+---
+forked and refactored from: jbool24/YumYum[https://github.com/jbool24/YumYum]
+---
 ### What You Can Do
 
 - Log on with a username and password or Google.
