@@ -1,6 +1,9 @@
 {
   "name": "food-friends",
   "version": "0.1.0",
+  "engines": {
+    "node": "7.10.0"
+  },
   "private": true,
   "homepage": "https://foodfriendsapp.herokuapp.com/",
   "proxy": "http://localhost:8000",
