@@ -28,8 +28,8 @@ if (process.env.NODE_ENV === undefined)
     // development env variables
     require('dotenv').config();
 
-// const env = process.env.NODE_ENV;
-const env = 'production';
+const env = process.env.NODE_ENV;
+// const env = 'production';
 
 // Database seteup MongoDB--------------------------
 (env === 'development')
@@ -85,9 +85,8 @@ app.use(function (req, res, next) {
 // const compiler = webpack(configWebpack(env));
 
 // Middleware Setup ========================================
-app.use("/", express.static(path.resolve(__dirname + "/public")));
+app.use(express.static(path.resolve(__dirname, "build"),{index: 'splash.html'}));
 // app.use(webpackMiddleware(compiler));
-
 
 // Express Validator
 app.use(expressValidator({
@@ -129,12 +128,20 @@ require('./server/api')(app);
 
 // Main files ==========================================
 const authenticated = require('./server/routes/config/auth');
+// app.get("/home/", authenticated, (req, res) => {
+//   res.sendFile(path.join(__dirname, 'public', 'app.html'));
+// });
+
+// app.get("/", (req, res) => {
+//   res.sendFile(path.join(__dirname, 'public', 'splash.html'));
+// });
+
 app.get("/home/", authenticated, (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'dist', 'index.html'));
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, 'public/splash.html'));
+  res.sendFile(path.join(__dirname, 'build', 'splash.html'));
 });
 
 // Start Server ============================================
