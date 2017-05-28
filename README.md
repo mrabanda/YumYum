@@ -33,3 +33,5 @@ Share culture and make connections with neighbors through home-cooked meals
 - Passport
 - Stripe
 - Session Storage
+- Webpack
+- Heroku
