@@ -8,6 +8,7 @@ Share culture and make connections with neighbors through home-cooked meals
 ### What You Can Do
 
 - Sign up and log on with a username and password or Google.
+  - Test login, `username: example@example.com, password: example`
 
 - See a list of meals prepared by cooks in your area.
 
