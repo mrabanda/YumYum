@@ -8,11 +8,12 @@ Share culture and make connections with neighbors through home-cooked meals
 ### What You Can Do
 
 - Sign up and log on with a username and password or Google.
-   - Test login username: example@example.com, password: example`
+  - Test login, ```username: example@example.com, password: example```
 
 - See a list of meals prepared by cooks in your area.
 
-- Search for meals by zip code. (use zip code 07310 to test)
+- Search for meals by zip code.
+  - Test zip code, ```07310```
 
 - Select a meal to go to the cook's menu page and see details.
 
@@ -21,6 +22,7 @@ Share culture and make connections with neighbors through home-cooked meals
 - View cart in sidebar to increase, decrease, and delete meals.
 
 - Checkout with Stripe to pay for meals.
+  - Test credit card #, ```4242-4242-4242-4242```
 
 ### Web Technologies Used
 
