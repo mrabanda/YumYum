@@ -1,6 +1,3 @@
-
-
-
 const cooks = require('./cooks.js');
 const fooditems = require('./fooditems.js');
 const getFooditemsByCuisine = require('./getFooditemsByCuisine.js');
