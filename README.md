@@ -13,7 +13,7 @@ Share culture and make connections with neighbors through home-cooked meals
 - See a list of meals prepared by cooks in your area.
 
 - Search for meals by zip code.
-  - Test zip codes, ```073100, 08873```
+    - Test zip codes, ```073100, 08873```
 
 - Select a meal to go to the cook's menu page and see details.
 
