@@ -8,10 +8,12 @@ Share culture and make connections with neighbors through home-cooked meals
 ### What You Can Do
 
 - Sign up and log on with a username and password or Google.
+  - Test login, ```username: example@example.com, password: example```
 
 - See a list of meals prepared by cooks in your area.
 
-- Search for meals by zip code. (use zip code 07310 to test)
+- Search for meals by zip code.
+    - Test zip codes, ```073100, 08873```
 
 - Select a meal to go to the cook's menu page and see details.
 
@@ -20,6 +22,7 @@ Share culture and make connections with neighbors through home-cooked meals
 - View cart in sidebar to increase, decrease, and delete meals.
 
 - Checkout with Stripe to pay for meals.
+  - Test credit card #, ```4242-4242-4242-4242```
 
 ### Web Technologies Used
 
@@ -27,7 +30,11 @@ Share culture and make connections with neighbors through home-cooked meals
 - Express.js
 - MongoDB / Mongoose
 - React.js
+- React Router
+- Bootstrap
 - Sass
 - Passport
 - Stripe
 - Session Storage
+- Webpack
+- Heroku
