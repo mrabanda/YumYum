@@ -1,7 +1,7 @@
-const React = require('react');
-const axios = require('axios');
+import React from 'react';
+import axios from 'axios';
 
-const hashHistory = require('react-router').hashHistory;
+import { hashHistory } from 'react-router';
 
 const LocalFav = React.createClass({
 	getInitialState: function(){
@@ -121,4 +121,4 @@ const LocalFav = React.createClass({
 	}
 });
 
-module.exports = LocalFav;
+export default LocalFav;

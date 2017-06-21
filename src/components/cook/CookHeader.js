@@ -1,4 +1,4 @@
-const React = require("react");
+import React from 'react';
 
 const CookHeader = React.createClass({
 	getInitialState: function(){
@@ -30,4 +30,4 @@ const CookHeader = React.createClass({
 	}
 });
 
-module.exports = CookHeader;
+export default CookHeader;

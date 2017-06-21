@@ -85,7 +85,8 @@ app.use(function (req, res, next) {
 // const compiler = webpack(configWebpack(env));
 
 // Middleware Setup ========================================
-app.use(express.static(path.resolve(__dirname, "build"),{index: 'splash.html'}));
+// app.use(express.static(path.resolve(__dirname, "build"),{index: 'splash.html'}));
+app.use(express.static(path.resolve(__dirname, "public"),{index: 'splash.html'}));
 // app.use(webpackMiddleware(compiler));
 
 // Express Validator
@@ -128,21 +129,21 @@ require('./server/api')(app);
 
 // Main files ==========================================
 const authenticated = require('./server/routes/config/auth');
-// app.get("/home/", authenticated, (req, res) => {
-//   res.sendFile(path.join(__dirname, 'public', 'app.html'));
-// });
-
-// app.get("/", (req, res) => {
-//   res.sendFile(path.join(__dirname, 'public', 'splash.html'));
-// });
-
 app.get("/home/", authenticated, (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'public', 'app.html'));
 });
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'splash.html'));
+  res.sendFile(path.join(__dirname, 'public', 'splash.html'));
 });
+
+// app.get("/home/", authenticated, (req, res) => {
+//   res.sendFile(path.join(__dirname, 'build', 'index.html'));
+// });
+
+// app.get("/", (req, res) => {
+//   res.sendFile(path.join(__dirname, 'build', 'splash.html'));
+// });
 
 // Start Server ============================================
 const port = process.env.PORT;

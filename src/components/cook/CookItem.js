@@ -1,4 +1,4 @@
-const React = require("react");
+import React from 'react';
 
 const CookItem = React.createClass({
 
@@ -63,4 +63,4 @@ const CookItem = React.createClass({
 	}
 });
 
-module.exports = CookItem;
+export default CookItem;

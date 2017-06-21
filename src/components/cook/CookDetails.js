@@ -1,9 +1,9 @@
 // REACT MODULES ==================================
-const React = require('react');
+import React from 'react';
 
-const CookHeader = require('./CookHeader');
-const CookItem   = require('./CookItem');
-// const SideBar = require('../common/SideBar');
+import CookHeader from './CookHeader';
+import CookItem   from './CookItem';
+// import SideBar from '../common/SideBar');
 
 const CookDetails = React.createClass({
   getInitialState: function() {
@@ -41,4 +41,4 @@ const CookDetails = React.createClass({
   }
 });
 
-module.exports = CookDetails;
+export default CookDetails;

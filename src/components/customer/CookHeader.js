@@ -1,5 +1,5 @@
-const React = require("react");
-const axios = require('axios');
+import React from 'react';
+import axios from 'axios';
 
 const CookHeader = React.createClass({
 	getInitialState: function(){
@@ -32,4 +32,4 @@ const CookHeader = React.createClass({
 	}
 });
 
-module.exports = CookHeader;
+export default CookHeader;

@@ -1,7 +1,7 @@
 // REACT MODULES ==================================
-const React = require('react');
+import React from 'react';
 
-const MenuItem   = require('../common/MenuItem');
+import MenuItem from '../common/MenuItem';
 
 const CookDetails = React.createClass({
   getInitialState: function() {
@@ -50,4 +50,4 @@ const CookDetails = React.createClass({
   }
 });
 
-module.exports = CookDetails;
+export default CookDetails;

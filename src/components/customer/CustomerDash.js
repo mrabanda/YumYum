@@ -1,9 +1,9 @@
-const React = require("react");
-const axios = require('axios');
+import React from 'react';
+import axios from 'axios';
 
-const CookHeader 			= require('../cook/CookHeader');
-const CustomerFilterPage 	= require('./CustomerFilterPage');
-const CustomerFilterHeader 	= require('./CustomerFilterHeader');
+import CookHeader 			from '../cook/CookHeader';
+import CustomerFilterPage 	from './CustomerFilterPage';
+import CustomerFilterHeader 	from './CustomerFilterHeader';
 
 const CustomerDash = React.createClass({
 	getInitialState: function(){
@@ -34,4 +34,4 @@ const CustomerDash = React.createClass({
 	}
 });
 
-module.exports = CustomerDash;
+export default CustomerDash;

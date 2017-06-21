@@ -1,9 +1,9 @@
 // Include React
-const React = require("react");
-const axios = require('axios');
+import React from 'react';
+import axios from 'axios';
 
-const LocalFav = require('./LocalFav');
-const RecentOrders = require('./RecentOrders')
+import LocalFav from './LocalFav';
+import RecentOrders from './RecentOrders';
 // const RecentOrders = require('./RecentOrders');
 
 const FilterPage = React.createClass({
@@ -45,4 +45,4 @@ const FilterPage = React.createClass({
   }
 });
 
-module.exports = FilterPage;
+export default FilterPage;

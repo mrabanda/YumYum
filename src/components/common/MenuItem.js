@@ -1,6 +1,6 @@
 // Include React
-const React = require('react');
-const axios = require('axios');
+import React from 'react';
+import axios from 'axios';
 
 // Creating the Footer component
 const MenuItem = React.createClass({
@@ -44,4 +44,4 @@ const MenuItem = React.createClass({
 });
 
 // Export the component back for use in other files
-module.exports = MenuItem;
+export default MenuItem;

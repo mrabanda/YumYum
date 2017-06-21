@@ -1,12 +1,15 @@
 // REACT MODULES ==================================
-const React = require('react');
+import React from 'react';
+// MATERIAL-UI THEME ==============================
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-require('./stylesheets/App.css');
+import './stylesheets/App.css';
+
 
 // Import components ==============================
 
-const NavBar = require("./components/common/navbar");
-const Footer = require("./components/common/footer");
+import NavBar from './components/common/navbar';
+import Footer from './components/common/footer';
 //=================================================
 
 
@@ -18,13 +21,15 @@ const App = React.createClass({
 
   render: function() {
     return (
-      <div>
-        <NavBar />
-        {this.props.children}
-        <Footer />
-      </div>
+      <MuiThemeProvider>
+        <div>
+          <NavBar />
+          {this.props.children}
+          <Footer />
+        </div>
+      </MuiThemeProvider>
     );
   }
 });
 
-module.exports = App;
+export default App;

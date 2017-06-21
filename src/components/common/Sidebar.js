@@ -1,6 +1,6 @@
 // Include React
-const React = require("react");
-const helper = require('../../helper');
+import React from 'react';
+import helper from '../../helper';
 
 const Sidebar = React.createClass({
 
@@ -188,4 +188,4 @@ const Sidebar = React.createClass({
 });
 
 // Export the component back for use in other files
-module.exports = Sidebar;
+export default Sidebar;

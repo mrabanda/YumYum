@@ -1,5 +1,5 @@
-const React = require("react");
-const SvgAnim = require("../common/SvgAnim")
+import React from 'react';
+import SvgAnim from '../common/SvgAnim'
 
 const CustomerFilterHeader = React.createClass({
 	getInitialState: function () {
@@ -59,4 +59,4 @@ const CustomerFilterHeader = React.createClass({
 	}
 });
 
-module.exports = CustomerFilterHeader;
+export default CustomerFilterHeader;

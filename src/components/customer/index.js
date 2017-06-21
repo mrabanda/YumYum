@@ -1,5 +1,5 @@
 // REACT MODULES ==================================
-const React = require('react');
+import React from 'react';
 
 const Customer = React.createClass({
   getInitialState: function() {
@@ -16,4 +16,4 @@ const Customer = React.createClass({
   }
 });
 
-module.exports = Customer;
+export default Customer;

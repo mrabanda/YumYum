@@ -1,5 +1,5 @@
-const React = require("react");
-const Sidebar = require('./Sidebar');
+import React from 'react';
+import Sidebar from './Sidebar';
 
 const Navbar = React.createClass({
 
@@ -55,4 +55,4 @@ const Navbar = React.createClass({
 	}
 });
 
-module.exports = Navbar;
+export default Navbar;

@@ -1,5 +1,5 @@
-const React = require("react");
-const axios = require('axios');
+import React from 'react';
+import axios from 'axios';
 
 const GenericHeader = React.createClass({
 	render: function(){
@@ -12,4 +12,4 @@ const GenericHeader = React.createClass({
 	}
 });
 
-module.exports = GenericHeader;
+export default GenericHeader;

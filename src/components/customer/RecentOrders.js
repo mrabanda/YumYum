@@ -1,5 +1,5 @@
 // Include React
-const React = require("react");
+import React from 'react';
 
 const RecentOrders = React.createClass({
 
@@ -124,4 +124,4 @@ const RecentOrders = React.createClass({
   }
 });
 
-module.exports = RecentOrders;
+export default RecentOrders;

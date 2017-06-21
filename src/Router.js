@@ -1,23 +1,23 @@
 // React Router Required Objects
-const React   = require('react');
-const router  = require("react-router");
+import React   from 'react';
+import {Route, Router, hashHistory, IndexRoute} from "react-router";
 
-const Route   = router.Route;
-const Router  = router.Router;
-const hashHistory   = router.hashHistory;
-const IndexRoute    = router.IndexRoute;
+// const Route   = router.Route;
+// const Router  = router.Router;
+// const hashHistory   = router.hashHistory;
+// const IndexRoute    = router.IndexRoute;
 
-const App       = require('./App');
-const Cook      = require('./components/cook');
-const CookItem  = require('./components/cook/CookItem');
-const CookInfo  = require('./components/customer/CookInfo');
+import App       from './App';
+import Cook      from './components/cook';
+import CookItem  from './components/cook/CookItem';
+import CookInfo  from './components/customer/CookInfo';
 
-const Customer           = require('./components/customer');
-const CustomerDash       = require('./components/customer/CustomerDash');
-const CustomerFilterPage = require('./components/customer/CustomerFilterPage');
+import Customer           from './components/customer';
+import CustomerDash       from './components/customer/CustomerDash';
+import CustomerFilterPage from './components/customer/CustomerFilterPage';
 
 
-module.exports = (
+export default (
   <Router history={hashHistory}>
     <Route path="/" component={App}>
 

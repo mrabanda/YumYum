@@ -1,4 +1,4 @@
-const axios = require('axios');;
+import axios from 'axios';;
 
 const helper = {
   getCart:()=>{
@@ -34,4 +34,4 @@ const helper = {
   }
 
 }
-module.exports = helper;
+export default helper;

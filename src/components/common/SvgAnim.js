@@ -1,5 +1,5 @@
 
-const React = require("react");
+import React from 'react';
 
 
 const SvgAnim = React.createClass({
@@ -41,4 +41,4 @@ const SvgAnim = React.createClass({
 	}
 });
 
-module.exports = SvgAnim;
+export default SvgAnim;

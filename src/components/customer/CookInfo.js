@@ -1,9 +1,9 @@
-const React = require("react");
-const axios = require('axios');
+import React from 'react';
+import axios from 'axios';
 
-const CookHeader 	= require('./CookHeader');
-const CookDetails 	= require('./CookDetails');
-const GenericHeader	= require('./GenericHeader');
+import CookHeader 	from './CookHeader';
+import CookDetails 	from './CookDetails';
+import GenericHeader	from './GenericHeader';
 
 const CookInfo = React.createClass({
 	getInitialState: function(){
@@ -39,4 +39,4 @@ const CookInfo = React.createClass({
 	}
 });
 
-module.exports = CookInfo;
+export default CookInfo;

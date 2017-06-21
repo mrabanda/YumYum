@@ -1,5 +1,5 @@
 // Include React
-const React = require("react");
+import React from 'react';
 
 // Creating the Footer component
 const Footer = React.createClass({
@@ -21,4 +21,4 @@ const Footer = React.createClass({
 });
 
 // Export the component back for use in other files
-module.exports = Footer;
+export default Footer;
