@@ -37,7 +37,7 @@ const FilterPage = React.createClass({
     return (
       <div className="wrapper">
         <div>
-          <LocalFav location={this.state.location} cuisine={this.state.location} items={this.state.items}/>
+          <LocalFav location={this.state.location} cuisine={this.state.cuisine} items={this.state.items}/>
           {/*<RecentOrders />*/}
         </div>
       </div>

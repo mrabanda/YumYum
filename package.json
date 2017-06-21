@@ -5,7 +5,7 @@
     "node": "7.10.0"
   },
   "private": true,
-  "homepage": "https://foodfriendsapp.herokuapp.com/",
+  "homepage": "",
   "proxy": "http://localhost:8000",
   "dependencies": {
     "autoprefixer": "7.1.0",
